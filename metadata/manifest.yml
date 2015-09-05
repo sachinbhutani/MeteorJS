@@ -1,22 +1,22 @@
 ---
-Name: nodejs
-Description: Custom Node.js cartridge auto-updating to the latest stable version on each build.
-Version: '0.12.4'
+Name: Meteor 1.1 
+Description: Meteor 1.1 with NodeJs 0.10.36
+Version: '0.10.36'
 License: Node.js License
 License-Url: https://raw.github.com/joyent/node/v0.12/LICENSE
 Vendor: www.nodejs.org
 Website: http://www.nodejs.org/
 Display-Name: Node.js Auto-Updating
-Cartridge-Short-Name: NODEJS
+Cartridge-Short-Name: meteor
 Cartridge-Version: '1.1.0'
-Cartridge-Vendor: icflorescu
+Cartridge-Vendor: sach
 Categories:
 - service
 - javascript
 - nodejs
 - web_framework
 Help-Topics:
-  Node.js Manual & Documentation: http://nodejs.org/api/
+  Metero - http://meteor.com
 Provides:
 - nodejs
 
