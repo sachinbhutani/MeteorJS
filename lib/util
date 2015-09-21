@@ -8,8 +8,8 @@ function update_nodejs {
    # fi
    # local LATEST="v$(curl --silent --max-time 5 ${VERSION_URL})"
   LATEST = "v0.10.36"
-  local NODE_URL=https://nodejs.org/dist/${LATEST}/node-${LATEST}-linux-x64.tar.gz
-
+  #local NODE_URL=https://nodejs.org/dist/${LATEST}/node-${LATEST}-linux-x64.tar.gz
+  local NODE_URL=https://nodejs.org/dist/v0.10.36/node-v0.10.36-linux-x64.tar.gz
   if [ "$LATEST" = "v" ]; then
     echo "Could not retrieve node version information from $VERSION_URL"
     return 1
